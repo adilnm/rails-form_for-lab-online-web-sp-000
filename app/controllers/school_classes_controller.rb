@@ -17,4 +17,8 @@ def create
   @school_class.save
   redirect_to school_class_path(@school_class)
 end
+
+def update
+
+end
 end
