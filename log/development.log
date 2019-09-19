@@ -668,3 +668,12 @@ Redirected to http://67.205.152.27:58945/students/4
 Completed 302 Found in 96682ms (ActiveRecord: 4.2ms)
 
 
+Started GET "/students/4" for 73.6.172.127 at 2019-09-19 18:23:28 +0000
+Processing by StudentsController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mStudent Load (0.4ms)[0m  [1m[34mSELECT  "students".* FROM "students" WHERE "students"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  Rendering students/show.html.erb within layouts/application
+  Rendered students/show.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 321ms (Views: 314.6ms | ActiveRecord: 0.4ms)
+
+
