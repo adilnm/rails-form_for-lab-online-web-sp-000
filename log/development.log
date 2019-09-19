@@ -822,3 +822,17 @@ Completed 200 OK in 22ms (Views: 20.2ms | ActiveRecord: 0.0ms)
 Started GET "/school_classes/new" for 73.6.172.127 at 2019-09-19 18:56:48 +0000
 Processing by SchoolClassesController#new as HTML
   Rendering school_classes/new.html.erb within layouts/application
+  Rendered school_classes/new.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 23ms (Views: 15.0ms | ActiveRecord: 1.6ms)
+
+
+Started POST "/school_classes" for 73.6.172.127 at 2019-09-19 18:56:58 +0000
+Processing by SchoolClassesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"xDZU1kX8OU1fLJQGA21Sw0K4IP9o1Kd712n8iwTueMOQER9R+i5FH4DE4tGiyhEcygAH+KWdi2WQ0iSr1Q6xRA==", "school_class"=>{"title"=>"History", "room_number"=>"12"}, "commit"=>"Create School class"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "school_classes" ("title", "room_number") VALUES (?, ?)[0m  [["title", "History"], ["room_number", 12]]
+  [1m[35m (67.0ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://67.205.152.27:58945/students/2
+Completed 302 Found in 73ms (ActiveRecord: 67.6ms)
+
+
