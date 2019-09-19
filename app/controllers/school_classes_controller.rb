@@ -13,8 +13,8 @@ def new
 end
 
 def create
-  @student=Student.new(params.require(:student).permit(:first_name, :last_name))
-  @student.save
+  @school_class=SchoolClass.new(params.require(:school_class).permit(:title, :room_number))
+  @school_class.save
   redirect_to student_path(@student)
 end
 end
