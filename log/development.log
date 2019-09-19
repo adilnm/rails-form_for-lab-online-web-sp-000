@@ -685,3 +685,5 @@ Processing by StudentsController#index as HTML
 Completed 200 OK in 14ms (Views: 12.8ms | ActiveRecord: 0.3ms)
 
 
+Started GET "/students/new" for 73.6.172.127 at 2019-09-19 18:25:15 +0000
+Processing by StudentsController#new as HTML
