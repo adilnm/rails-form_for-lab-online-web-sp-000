@@ -576,3 +576,6 @@ No template found for StudentsController#create, rendering head :no_content
 Completed 204 No Content in 16ms (ActiveRecord: 0.0ms)
 
 
+Started POST "/students" for 73.6.172.127 at 2019-09-19 18:19:13 +0000
+Processing by StudentsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"eomQMfNqXjfG5nwueyZS7fEVl8GkdHgWf9B4IGuZ4Vgurtu2TLgiZRkOCvnagREyea2wxmk9VAg4a6AAunko3w==", "student"=>{"first_name"=>"Adil", "last_name"=>"Naimi"}, "commit"=>"Create Student"}
