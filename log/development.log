@@ -631,3 +631,10 @@ Processing by StudentsController#new as HTML
 Completed 200 OK in 43ms (Views: 42.0ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/students/new" for 73.6.172.127 at 2019-09-19 18:21:11 +0000
+Processing by StudentsController#new as HTML
+  Rendering students/new.html.erb within layouts/application
+  Rendered students/new.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 27ms (Views: 13.5ms | ActiveRecord: 1.6ms)
+
+
