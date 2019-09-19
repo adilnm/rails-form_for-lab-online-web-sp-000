@@ -15,6 +15,6 @@ end
 def create
   @school_class=SchoolClass.new(params.require(:school_class).permit(:title, :room_number))
   @school_class.save
-  redirect_to student_path(@student)
+  redirect_to student_path(@school_class)
 end
 end
