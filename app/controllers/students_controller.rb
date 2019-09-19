@@ -8,6 +8,6 @@ class StudentsController < ApplicationController
   end
 
   def new
-    @post=Post.new
+    @student=Student.new
   end
 end
