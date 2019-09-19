@@ -569,3 +569,6 @@ rack (2.0.6) lib/rack/handler/webrick.rb:86:in `service'
 /usr/local/rvm/rubies/ruby-2.6.1/lib/ruby/2.6.0/webrick/server.rb:307:in `block in start_thread'
   Rendering /usr/local/rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.html.erb within rescues/layout
   Rendered /usr/local/rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.html.erb within rescues/layout (1.8ms)
+Started POST "/students" for 73.6.172.127 at 2019-09-19 18:13:54 +0000
+Processing by StudentsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"eomQMfNqXjfG5nwueyZS7fEVl8GkdHgWf9B4IGuZ4Vgurtu2TLgiZRkOCvnagREyea2wxmk9VAg4a6AAunko3w==", "student"=>{"first_name"=>"Adil", "last_name"=>"Naimi"}, "commit"=>"Create Student"}
